@@ -1,4 +1,5 @@
 import math
+# importamos la funcion math para usala mas adelante 
 print("Welcome to the Right Triangle Solver App")
 First_leg = int(input("What is the first leg of the triangle: "))
 print(f"{First_leg}")

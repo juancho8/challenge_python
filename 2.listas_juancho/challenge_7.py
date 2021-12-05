@@ -4,6 +4,7 @@ print(f"It contains the elements: [{hard_code}]")
 print("\nThe element 15 is a <class 'int'>")
 print("\nthe variable num_ints is a <class'list'>")
 
+# creamos una lista llamada hard_code la cual usaremos para meter nuestros valores en forma de string 
 
 hard_code1=[15,100,55,42]
 print(f"\nIt contains the elements: [{hard_code}]")

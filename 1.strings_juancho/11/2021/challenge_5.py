@@ -1,7 +1,7 @@
 print("Welcome to the multiplication/exponent table App")
 name = input("\nWhat is your name").title()
 number = float(input("\nwhat number would you like to work with  : "))
-
+#reutilizamos el codigo escrito en ejrcicios aneriores usando prints f lo cual nos ayuda a formatear el tipo de dato
 print(f"\nMultiplication table for {number}")
 print(f""" 1.0*{number} = {number * 1}
            2.0*{number} = {number * 2}
