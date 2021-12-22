@@ -1,7 +1,7 @@
-print('Welcome to the Fibonacci Calculator App')
+print('BIENVENIDO A LA CALCULADORA FIBONNACI')
 
-#Calculate Fibonnaci
-num = int(input('How many digits of the Fibonacci Sequence would you like to compute: '))
+#CALCULANDO FIBONACCI CON LOS VALORES DE LA LISTA 
+num = int(input('Cuantos numeros de la serie fibonnaci quieres que imprima: '))
 Fibonnaci = []
 actual = 0
 for i in range(num):
@@ -13,8 +13,8 @@ for i in range(num):
         Fibonnaci.append(Fibonnaci[i-1]+Fibonnaci[i-2])
 print(*Fibonnaci)  
 
-#Calculate golden ratio
-print('The corresponding Golden Ratio values are: ')
+#CALCULANDO EL " GOLDEN RATIO"
+print('Los numeros correspondientes al golden ratio son : ')
 gold = []
 for i in range(num):
     if i==0:

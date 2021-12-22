@@ -26,33 +26,33 @@ TeachersO.insert(0,str(input(('Oops, '+str(TeachersO[0])+' Ya no es tu profesor 
 #limpiamos la primera lista con la funcion clear
 Teachers.clear()
 Teachers = TeachersO.copy()
-print('\nYour favorite teachers ranked are: '+str(Teachers))
+print('\nTus profesores favoritos son: '+str(Teachers))
 Teachers.sort()
-print('Your favorite teachers aphabetically are: '+str(Teachers))
+print('Tus cuatro profesores favoritos ordenados alfabeticamente : '+str(Teachers))
 Teachers.reverse()
-print('Your favorite teachers in reverse alphabetical order are: '+str(Teachers))
+print('Tus cuatro profesores favoritos ordenados alfabeticamente en orden inverso : '+str(Teachers))
 
 # mostramos la informacion actualizada
-print('\nYour top two teachers are: '+str(TeachersO[0])+ ' and '+str(TeachersO[1]))
-print('Your next two favorite teachers are: '+str(TeachersO[2])+ ' and '+str(TeachersO[3]))
-print('Your last favorite teacher is: '+str(TeachersO[-1]))
-print('You have a total of '+str(len(TeachersO))+' favorite teachers\n')
+print('\nTus dos profesores favoritos son: '+str(TeachersO[0])+ ' y '+str(TeachersO[1]))
+print('Tus dos siguientes profesores favoritos son :'+str(TeachersO[2])+ ' y '+str(TeachersO[3]))
+print('Tu ultimo profesor favorito es : '+str(TeachersO[-1]))
+print('tienes un total de  '+str(len(TeachersO))+' Profesores favoritos\n')
 
 #Eliminamos a un profesor
-delProf = str(input('You\'ve decided you no longer like a teacher. Which teacher would you like to remove from you list: ')).capitalize()
+delProf = str(input('Ya no es tu profesor favorito,\n Quien es tu profesor favorito ')).capitalize()
 TeachersO.remove(delProf)
 
 #Limpiamos la anterior lista y renovamos
 Teachers.clear()
 Teachers = TeachersO.copy()
-print('\nYour favorite teachers ranked are: '+str(Teachers))
+print('\nTus profesores favoritos son  '+str(Teachers))
 Teachers.sort()
-print('Your favorite teachers aphabetically are: '+str(Teachers))
+print('Tus cuatro profesores favoritos ordenados alfabeticamente :'+str(Teachers))
 Teachers.reverse()
-print('Your favorite teachers in reverse alphabetical order are: '+str(Teachers))
+print('Tus cuatro profesores favoritos ordenados alfabeticamente en orden inverso :  '+str(Teachers))
 
 #Mostramos los valores de los profesores en la lista final
-print('\nYour top two teachers are: '+str(TeachersO[0])+ ' and '+str(TeachersO[1]))
-print('Your next two favorite teachers are: '+str(TeachersO[2])+ ' and '+str(TeachersO[3]))
-print('Your last favorite teacher is: '+str(TeachersO[-1]))
-print('You have a total of '+str(len(TeachersO))+' favorite teachers\n')
+print('\nTus dos profesores favoritos son: '+str(TeachersO[0])+ ' and '+str(TeachersO[1]))
+print('Tus dos siguientes profesores favoritos son :'+str(TeachersO[2])+ ' and '+str(TeachersO[3]))
+print('Tu ultimo profesor favorito es : '+str(TeachersO[-1]))
+print('tienes un total de '+str(len(TeachersO))+' Profesor favortio\n')
